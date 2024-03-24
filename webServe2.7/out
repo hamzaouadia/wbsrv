@@ -1,0 +1,18 @@
+all good the server is pushed to the container of servers
+server 1 has : 2 location
+server : reda1 listen to port : 5555
+---- IN reqhandler CONSTRUCTOR ----
+39 bytes popopo
+in check buffer
+ >> -*-*-*--*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-* << 
+[31mDELETE / HTTP/1.1
+Host: localhost:5555[0m
+ >> -*-*-*--*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-* << 
+REQUEST PARSING -------------
+uri to split >>>>>>>> /
+[31m============================concat uri : /nfs/homes/haouadia/Desktop/webServe2.7[0m
+parse Headers here
+-------- request URI -----------/nfs/homes/haouadia/Desktop/webServe2.7
+data Sent Yes .......
+ Response destructor called
+destructor requesthandler is called

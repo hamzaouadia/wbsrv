@@ -1,0 +1,31 @@
+all good the server is pushed to the container of servers
+server 1 has : 2 location
+server : reda1 listen to port : 5555
+---- IN reqhandler CONSTRUCTOR ----
+479 bytes popopo
+in check buffer
+ >> -*-*-*--*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-* << 
+[31mGET /cgi-bin/file.php HTTP/1.1
+Host: localhost:5555
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:123.0) Gecko/20100101 Firefox/123.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Referer: http://localhost:5555/cgi-bin
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: same-origin
+
+[0m
+ >> -*-*-*--*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-* << 
+REQUEST PARSING -------------
+uri to split >>>>>>>> /cgi-bin/file.php
+[31m============================concat uri : /nfs/homes/haouadia/Desktop/webServe2.7/cgi-bin/file.php[0m
+parse Headers here
+-------- request URI -----------/nfs/homes/haouadia/Desktop/webServe2.7/cgi-bin/file.php
+sent : 66 bytes
+data Sent Yes .......
+ Response destructor called
+destructor requesthandler is called
